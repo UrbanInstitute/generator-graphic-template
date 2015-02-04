@@ -1,0 +1,89 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'generator-graphic-template' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose cache add [ 'generator-graphic-template', null ]
+5 verbose cache add name=undefined spec="generator-graphic-template" args=["generator-graphic-template",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'generator-graphic-template',
+6 verbose parsed url   path: 'generator-graphic-template',
+6 verbose parsed url   href: 'generator-graphic-template' }
+7 silly lockFile 9e2b5854-generator-graphic-template generator-graphic-template
+8 verbose lock generator-graphic-template /Users/bchartof/.npm/9e2b5854-generator-graphic-template.lock
+9 silly lockFile 9e2b5854-generator-graphic-template generator-graphic-template
+10 silly lockFile 9e2b5854-generator-graphic-template generator-graphic-template
+11 verbose addNamed [ 'generator-graphic-template', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile f91fc380-generator-graphic-template generator-graphic-template@
+14 verbose lock generator-graphic-template@ /Users/bchartof/.npm/f91fc380-generator-graphic-template.lock
+15 silly addNameRange { name: 'generator-graphic-template',
+15 silly addNameRange   range: '*',
+15 silly addNameRange   hasData: false }
+16 verbose request where is /generator-graphic-template
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id ccebf4b44b75cff3
+19 verbose url raw /generator-graphic-template
+20 verbose url resolving [ 'https://registry.npmjs.org/',
+20 verbose url resolving   './generator-graphic-template' ]
+21 verbose url resolved https://registry.npmjs.org/generator-graphic-template
+22 verbose request where is https://registry.npmjs.org/generator-graphic-template
+23 info trying registry request attempt 1 at 09:14:48
+24 http GET https://registry.npmjs.org/generator-graphic-template
+25 http 404 https://registry.npmjs.org/generator-graphic-template
+26 verbose headers { date: 'Wed, 04 Feb 2015 14:14:48 GMT',
+26 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 verbose headers   'content-type': 'application/json',
+26 verbose headers   'cache-control': 'max-age=0',
+26 verbose headers   'content-length': '52',
+26 verbose headers   'accept-ranges': 'bytes',
+26 verbose headers   via: '1.1 varnish',
+26 verbose headers   age: '0',
+26 verbose headers   'x-served-by': 'cache-iad2131-IAD',
+26 verbose headers   'x-cache': 'MISS',
+26 verbose headers   'x-cache-hits': '0',
+26 verbose headers   'x-timer': 'S1423059288.456665,VS0,VE55',
+26 verbose headers   'keep-alive': 'timeout=10, max=50',
+26 verbose headers   connection: 'Keep-Alive' }
+27 silly registry.get cb [ 404,
+27 silly registry.get   { date: 'Wed, 04 Feb 2015 14:14:48 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '52',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-iad2131-IAD',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1423059288.456665,VS0,VE55',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly lockFile f91fc380-generator-graphic-template generator-graphic-template@
+29 silly lockFile f91fc380-generator-graphic-template generator-graphic-template@
+30 error 404 404 Not Found: generator-graphic-template
+30 error 404
+30 error 404 'generator-graphic-template' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Darwin 14.0.0
+32 error command "node" "/usr/local/bin/npm" "install" "-g" "generator-graphic-template"
+33 error cwd /Users/bchartof/projects/generator-graphic-template
+34 error node -v v0.10.35
+35 error npm -v 1.4.28
+36 error code E404
+37 verbose exit [ 1, true ]
